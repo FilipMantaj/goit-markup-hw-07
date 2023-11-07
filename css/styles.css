@@ -845,7 +845,143 @@ color: #4D5AE5;
   }
 }
 
+ /* tablet */
 
+  @media all and (min-width: 768px) {
+
+    .container {
+      max-width: 768px;
+    }
+  
+    .header-wrap {
+      height: 72px;
+      max-width: 768px;
+    }
+  
+    .navigation {
+      align-items: center;
+      display: flex;
+    }
+  
+    .header-wrap .nav-list {
+      display: flex;
+      gap: 40px;
+    }
+  
+    .header-wrap .nav-link {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: 24px 0;
+    }
+  
+    .header-wrap .address {
+      display: flex;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      line-height: 1.17;
+      margin-left: auto;
+      max-width: 119px;
+    }
+  
+    .header-wrap .address-list {
+      gap: 12px;
+    }
+  
+    .menu-toggle {
+      display: none;
+    }
+  
+    .starting-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url("../images/people-office.jpg");
+    }
+  
+    .first-heading {
+      font-size: 56px;
+      line-height: 1.07;
+      max-width: 496px;
+    }
+  
+    .traits-list {
+      gap: 72px 24px;
+      margin: 0 auto;
+      max-width: 736px;
+    }
+  
+    .traits-li {
+      max-width: 356px;
+    }
+  
+    .traits-section .third-heading {
+      text-align: left;
+    }
+  
+    .team-list {
+      gap: 64px 24px;
+    }
+  
+    .customers-list {
+      gap: 72px 24px;
+    }
+  
+    .customers-li {
+      min-width: 168px;
+    }
+  
+    .footer-wrap {
+      gap: 72px 24px;
+      max-width: 584px
+    }
+    
+    .footer-left {
+      margin: 0;
+    }
+  
+    .logo-footer {
+      text-align: left;
+    }
+  
+    .footer-social-div {
+      margin: 0;
+    }
+  
+    .footer-social-paragraph {
+      text-align: left;
+    }
+  
+    .form-footer {
+      gap: 24px;
+    }
+  
+    .label-footer {
+      width: 264px;
+    }
+  
+    .form-button {
+      margin: 0;
+    }
+    .modal {
+      min-width: 408px;
+    }
+  
+    @media screen and (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .starting-section {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url("../images/people-office.jpg");
+      }
+    }
+  }
 
 
 
