@@ -772,7 +772,9 @@ color: #4D5AE5;
 
 /* mobile menu */
 
-.mobile-container {
+@media screen and (max-width: 767px) {
+
+  .mobile-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -843,7 +845,8 @@ color: #4D5AE5;
       url("../images/people-office.jpg");
     }
   }
-  
+}
+
   /* tablet */
 
   @media all and (min-width: 768px) {
