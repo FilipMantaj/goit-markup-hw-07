@@ -471,7 +471,7 @@ color: #ffffff;
   border-radius: 4px;
 }
 
-.icon-icon-send {
+.icon-icon-send { 
 margin-left: 16px;
 }
 
@@ -584,13 +584,13 @@ margin-left: 16px;
   top: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-  
 }
 
 .modal {
@@ -605,7 +605,6 @@ margin-left: 16px;
   position: absolute;
   top: 50%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-  padding: 72px 24px 24px 24px;
 }
 
 .is-hidden .modal {
@@ -677,20 +676,22 @@ margin-left: 16px;
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .input-modal:focus {
   border-color: #4d5ae5;
 }
+
 .input-modal:focus + .icon-vector {
   fill: #4d5ae5;
 }
-
 .input-five:checked + .label-five span {
-  background-color:  #404bbf;
+  background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
     }
+
 .icon-vector {
   position: absolute;
   left: 16px;
@@ -699,8 +700,8 @@ margin-left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #2E2F42
 }
- 
- .div-comment {
+
+.div-comment {
   margin-bottom: 16px;
 }
 
@@ -718,10 +719,7 @@ margin-left: 16px;
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.textarea-modal:focus {
-    border-color: #4D5AE5;
+  border-color: #4D5AE5;
 }
 
 .div-five {
@@ -769,7 +767,8 @@ color: #4D5AE5;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  
+}
 
 /* mobile menu */
 
@@ -841,11 +840,11 @@ color: #4D5AE5;
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-   url("../images/people-office.jpg");
+      url("../images/people-office.jpg");
+    }
   }
-}
-
- /* tablet */
+  
+  /* tablet */
 
   @media all and (min-width: 768px) {
 
@@ -982,8 +981,8 @@ color: #4D5AE5;
       }
     }
   }
-
-/*deskpot*/
+    
+  /*deskpot*/
 
   @media all and (min-width: 1158px) {
 
@@ -1092,13 +1091,41 @@ color: #4D5AE5;
 }
 }
 
-
-
-
-
-
-
-
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
  
   
   
