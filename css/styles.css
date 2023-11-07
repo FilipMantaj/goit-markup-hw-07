@@ -983,6 +983,114 @@ color: #4D5AE5;
     }
   }
 
+/*deskpot*/
+
+  @media all and (min-width: 1158px) {
+
+    .container {
+      max-width: 1158px;
+    }
+  
+    .section {
+      padding: 120px 0;
+    }
+  
+    .header-wrap .address {
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      line-height: 1.5;
+      margin-left: auto;
+      max-width: 100%;
+    }
+  
+    .header-wrap .address-list {
+      gap: 40px;
+    }
+  
+    .starting-section {
+      padding: 188px 0;
+    }
+  
+    .traits-list {
+      flex-wrap: nowrap;
+    }
+  
+    .traits-li {
+      min-width: 264px;
+    }
+  
+    .traits-div {
+      align-items: center;
+      background-color: var(--cloud);
+      border-radius: 4px;
+      display: flex;
+      height: 112px;
+      justify-content: center;
+      margin-bottom: 8px;
+    }
+  
+    .traits-section .third-heading {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  
+    .paragraph {
+      font-weight: 400;
+    }
+  
+    .work-section {
+      display: block;
+      padding-top: 0;
+    }
+  
+    .work-list {
+      flex-wrap: nowrap;
+      gap: 24px;
+    }
+  
+    .team-list {
+      flex-wrap: nowrap;
+    }
+  
+    .customers-list {
+      flex-wrap: nowrap;
+    }
+  
+    .customers-li {
+      min-width: 168px;
+    }
+  
+    .footer-wrap {
+      gap: 0;
+      max-width: 1160px;
+    }
+  
+    .footer-left {
+      margin-right: 120px;
+    }
+  
+    .footer-social-div {
+      margin-left: auto;
+      width: auto;
+    }
+  
+    .form-footer {
+      flex-wrap: nowrap;
+    }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .starting-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/people-office.jpg");
+  }
+}
+}
 
 
 
