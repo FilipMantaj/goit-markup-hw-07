@@ -66,6 +66,10 @@ p {
   margin-right: 120px;
 }
 
+.mobile-open {
+  display: none;
+}
+
 .accent {
   color: var(--navy-blue);
 }
