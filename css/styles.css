@@ -65,20 +65,9 @@ p {
 .logo-header {
   margin-right: 120px;
 }
-
-.header-wrap {
-  justify-content: space-between;
-}
   
 .accent {
   color: var(--navy-blue);
-}
-
-.mobile-open {
-  display: flex;
-  background-color: transparent;
-  border: none;
-  stroke: black;
 }
 
 .list {
