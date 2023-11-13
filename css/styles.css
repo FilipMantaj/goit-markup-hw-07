@@ -329,7 +329,7 @@ img {
 }
 
 .customers-list {
-  column-gap: 16px;
+  column-gap: 16px 16px;
   margin: 0 auto;
 }
 
