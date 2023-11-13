@@ -66,17 +66,6 @@ p {
   margin-right: 120px;
 }
 
-.navigation {
-  justify-content: space-between;
-}
-
-.mobile-open {
-  display: flex;
-  background-color: transparent;
-  border: none;
-  stroke: black;
-}
-
 .accent {
   color: var(--navy-blue);
 }
@@ -216,7 +205,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-wrap .menu-toggle {
+.header-wrap .mobile-menu {
   background: none;
   border: none;
   cursor: pointer;
