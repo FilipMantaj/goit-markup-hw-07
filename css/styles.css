@@ -379,6 +379,9 @@ img {
 .footer-left {
   margin: 0 auto 72px auto;
 }
+.footer-paragraph {
+  color: white;
+}
 
 .logo-footer {
   display: inline-block;
@@ -445,7 +448,8 @@ img {
 }
 
 .p-footer {
- border: center 
+ border: center;
+ color: white;
 }
 
 .div-form {
