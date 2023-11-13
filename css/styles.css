@@ -329,7 +329,7 @@ img {
 }
 
 .customers-list {
-  column-gap: 16px 16px;
+  column-gap: 8px;
   margin: 0 auto;
 }
 
@@ -1094,7 +1094,7 @@ img {
 
   .customers-list {
     flex-wrap: nowrap;
-    gap: 72px 16px;
+    gap: 72px 24px;
   }
 
   .customers-li {
