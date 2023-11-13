@@ -1094,6 +1094,7 @@ img {
 
   .customers-list {
     flex-wrap: nowrap;
+    gap: 72px 16px;
   }
 
   .customers-li {
