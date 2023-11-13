@@ -142,7 +142,7 @@ img {
   height: auto;
 }
 
-.menu-toggle {
+.mobile-open {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -921,7 +921,7 @@ img {
     gap: 12px;
   }
 
-  .menu-toggle {
+  .mobile-open {
     display: none;
   }
 
