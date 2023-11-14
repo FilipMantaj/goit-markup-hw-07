@@ -36,10 +36,6 @@ p {
   margin: 0;
 }
 
-ul {
-  display: flex;
-}
-
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -1132,6 +1128,9 @@ img {
   .footer-left {
     margin-right: 120px;
   }
+  .p-footer {
+  text-algin: left;
+}
 
   .footer-form-div {
     margin-left: auto;
