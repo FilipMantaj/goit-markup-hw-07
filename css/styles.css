@@ -963,7 +963,7 @@ img {
   }
 
   .customers-list {
-    gap: 72px 16px;
+    gap: 72px 24px;
   }
 
   .customers-li {
@@ -980,7 +980,10 @@ img {
   .footer-left {
     margin: 0;
   }
-
+  ,footer-paragraph {
+    max-width: 264px;
+  }
+  
   .logo-footer {
     text-align: left;
   }
@@ -1027,6 +1030,7 @@ img {
 
   .container {
     max-width: 1158px;
+    padding: 0 15px;
   }
 
   .section {
