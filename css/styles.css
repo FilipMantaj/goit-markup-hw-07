@@ -406,7 +406,7 @@ img {
   margin: 0 auto 72px auto;
 }
 
-.footer-social-paragraph {
+.p-footer {
   color: var(--white);
   display: block;
   font-weight: 500;
