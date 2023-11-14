@@ -36,6 +36,10 @@ p {
   margin: 0;
 }
 
+ul {
+  display: flex;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -329,8 +333,8 @@ img {
 }
 
 .customers-list {
-  column-gap: 8px;
-  margin: 0 auto;
+    column-gap: 16px;
+    margin: 0 auto;
 }
 
 .customers-li {
