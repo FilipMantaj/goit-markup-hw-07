@@ -416,6 +416,16 @@ img {
   text-align: center;
 }
 
+.footer-social-paragraph {
+    color: var(--white);
+    display: block;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
 .footer-social-list {
   gap: 16px;
 }
