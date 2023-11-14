@@ -435,7 +435,7 @@ img {
   width: 40px;
 }
 
-.footer-icon-link {
+.icon-link {
   align-items: center;
   background-color: var(--iris);
   border-radius: 50%;
@@ -446,8 +446,8 @@ img {
   width: 100%;
 }
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+.icon-link:hover,
+.icon-link:focus {
   background-color: var(--green);
 }
 
