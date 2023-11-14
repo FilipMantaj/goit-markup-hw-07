@@ -1028,6 +1028,14 @@ img {
 
 @media all and (min-width: 1158px) {
 
+  .starting-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url("../images/people-desktop.jpg");
+  }
+  
   .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -1134,7 +1142,7 @@ img {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url("../images/people-office-deskpot@2x.jpg");
+        url("../images/people-office-desktop@2x.jpg");
     }
   }
 }
