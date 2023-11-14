@@ -38,7 +38,7 @@ p {
 
 .container {
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
   max-width: 428px;
 }
 
@@ -1033,7 +1033,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-desktop.jpg");
+      url("../images/people-office-desktop.jpg");
   }
   
   .container {
