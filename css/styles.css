@@ -38,7 +38,7 @@ p {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 12px;
   max-width: 428px;
 }
 
@@ -1121,7 +1121,7 @@ img {
   }
 
   .div-footer {
-  margin: 5%;
+  margin: 5px;
   }
     
   .footer-left {
