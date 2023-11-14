@@ -930,13 +930,10 @@ img {
     display: none;
   }
 
-  .starting-section {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url("../images/people-tablet.jpg");
-  }
+   .starting-section {
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), 
+      url(../images/people-office-tablet.jpg);
+   }
 
   .first-heading {
     font-size: 56px;
