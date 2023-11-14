@@ -1001,8 +1001,10 @@ img {
     text-align: left;
 
   .form-footer {
-    gap: 24px;
-  }
+   display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
 
   .label-footer {
     width: 264px;
